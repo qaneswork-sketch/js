@@ -19,3 +19,13 @@ checkOrder(10, 10);
 checkOrder(10, 5);
 checkOrder(2, 4);
 checkOrder(13, 0);
+
+
+
+function reverseString(str) {
+ return str.split('').reverse().join('');
+}
+
+console.log(reverseString('Hi, my name is ...'));
+
+export default reverseString;
