@@ -1,11 +1,16 @@
+// Створіть порожній об'єкт з ім'ям student.
+// Додайте до об'єкта student наступні властивості:
+// firstName: рядок, представляє ім'я студента.
+// lastName: рядок, представляє прізвище студента.
+// age: число, представляє вік студента.
+// courses: масив, представляє список курсів, які він вивчає (наприклад, ["Математика", "Історія", "Програмування"]).
 
 
+const student = {};
 
-const numbersList = [1,10,14,2,4,5,43,34];
+student.firstName = "John";
+student.lastName = "Doe";
+student.age = 20;
+student.courses = ["Математика", "Історія", "Програмування"];
 
-
-const sortedNumbers = numbersList.map(num => num);
-sortedNumbers.sort((a, b) => a - b);
-
-console.log(numbersList);
-console.log(sortedNumbers)
+console.log(student);
