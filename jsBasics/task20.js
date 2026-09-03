@@ -10,4 +10,4 @@ const sortedNumbers = numbersList.map(num => num);
 sortedNumbers.sort((a, b) => a - b);
 
 console.log(numbersList);
-console.log(sortedNumbers)
+console.log(sortedNumbers);
